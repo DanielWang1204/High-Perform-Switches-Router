@@ -1,0 +1,13 @@
+1. The example code, str_match_file.c, contains an example of naive string matching algorithm.
+
+2. Please compile str_match_file.c using the following command:
+   g++ -o naive.out str_match_file.c
+   
+3. Usage of naive.out:
+   ./naive.out [file name of text] [file name of pattern]
+   
+4. Your codes should be able to print out:
+   - Each matching position.
+   - Total number of (possibly overlapped) matches.
+   - Total number of character comparisons.
+   - Total execution time of string matching algorithm.
